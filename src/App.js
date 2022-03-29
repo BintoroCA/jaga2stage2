@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './Pages/AllStyle.css';
+
+import Login from "./Pages/Login"
+import Register from "./Pages/Register"
+import Homepage from "./Pages/Homepage"
+import DetailProduct from "./Pages/DetailProduct"
+import Profile from "./Pages/Profile"
+import Category from "./Pages/Category"
+import Product from "./Pages/Product"
+import Complain from "./Pages/Complain"
+import { Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <div className='App'> */}
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/detail-product" element={<DetailProduct />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/category" element={<Category />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/complain" element={<Complain />} />
+     </Routes>
+    {/* </div> */}
+    {/* <Login/> */}
+    </>
   );
 }
 

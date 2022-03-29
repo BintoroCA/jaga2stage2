@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* LOGIN PAGE STYLE START */
+
+.loginPageContainer {
+    background-color: #0B0B0B;
+    color: white;
+    min-height: 100vh;
+    margin: auto;
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginContentContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loginLeftContent {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginLeftContent h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.loginLeftContent p {
+    font-size: 18px;
+    color: #6A6A6A;
+}
+
+/* .bigMerchIcon {
+    
+} */
+.loginButtonContainer {
+    margin-top: 10vh;
+}
+
+.loginButtonContainer button:first-child {
+    width: 135px;
+    height: 40px;
+    background: #F74D4D;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+} 
+
+.loginButtonContainer button:nth-child(2) {
+    width: 135px;
+    height: 40px;
+    background: #0B0B0B;
+    border: none;
+    color: white;
+    font-size: 18px;
+} 
+
+
+.loginRightContent {
+    flex: 50%;
+
+}
+
+.loginCard {
+    width: 416px;
+    height: 366px;
+    background: #181818;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 7vh;
+}
+
+.loginCardTop {
+    padding-top: 9%;
+    padding-left: 8%;
+    margin-bottom: 6%;
+}
+
+.loginCard h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.loginCardBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginCard input:first-child {
+    width: 350px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+}
+
+.loginCard input:nth-child(2) {
+    width: 350px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+}
+
+/* .loginCard input::placeholder {
+    text-align: start;
+    padding-left: 10px;
+} */
+
+.loginCard button {
+    margin-top: 50px;
+    width: 350px;
+    height: 50px;
+    background: #F74D4D;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* LOGIN PAGE STYLE END */
+
+
+/* REGISTER PAGE STYLE START */
+
+.registerPageContainer {
+    background-color: #0B0B0B;
+    color: white;
+    min-height: 100vh;
+    margin: auto;
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.registerContentContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.registerLeftContent {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerLeftContent h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.registerLeftContent p {
+    font-size: 18px;
+    color: #6A6A6A;
+}
+
+/* .bigMerchIcon {
+    
+} */
+.registerButtonContainer {
+    margin-top: 10vh;
+}
+
+.registerButtonContainer button:first-child {
+    width: 135px;
+    height: 40px;
+    background: #F74D4D;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+} 
+
+.registerButtonContainer button:nth-child(2) {
+    width: 135px;
+    height: 40px;
+    background: #0B0B0B;
+    border: none;
+    color: white;
+    font-size: 18px;
+} 
+
+
+.registerRightContent {
+    flex: 50%;
+
+}
+
+.registerCard {
+    width: 416px;
+    height: 443px;
+    background: #181818;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 7vh;
+}
+
+.registerCardTop {
+    padding-top: 9%;
+    padding-left: 8%;
+    margin-bottom: 6%;
+}
+
+.registerCard h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.registerCardBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registerCard input:first-child {
+    width: 350px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+}
+
+.registerCard input:nth-child(2) {
+    width: 350px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+}
+
+.registerCard input:nth-child(3) {
+    width: 350px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+}
+
+/* .registerCard input::placeholder {
+    text-align: start;
+    padding-left: 10px;
+} */
+
+.registerCard button {
+    margin-top: 50px;
+    width: 350px;
+    height: 50px;
+    background: #F74D4D;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
