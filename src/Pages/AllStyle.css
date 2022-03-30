@@ -10,6 +10,69 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* NAVBAR START */
+
+/* .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navbarComp {
+    align-items: center;
+    padding: 0 50px !important;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    background-color: #0B0B0B;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .nav-left > img {
+    width: 70px;
+    height: 68.22px;
+  }
+  
+  .nav-left {
+    flex: 1;
+  }
+  
+  .nav-right {
+    flex: 1;
+    padding: 0;
+    text-align: end;
+  }
+  
+  .nav-right > ul {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-right li {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    color: white;
+    margin-left: 23px;
+    font-size: 18px;
+    font-family: Avenir;
+  }
+  
+  .nav-right > li > link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .right-login {
+    color: white;
+    text-decoration: none;
+  
+    align-self: center;
+  }
+
+/* NAVBAR END */
+
+
 /* LOGIN PAGE STYLE START */
 
 .loginPageContainer {
@@ -21,7 +84,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .loginContentContainer {
@@ -299,3 +361,77 @@ body {
     color: white;
     font-size: 18px;
 }
+
+/* REGISTER PAGE STYLE END */
+
+
+/* HOMEPAGE STYLE START */
+
+.homepagePageContainer {
+    background-color: #0B0B0B;
+    color: white;
+    min-height: 100vh;
+    margin: auto;
+    padding: 10vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+}
+
+.homepagePageContainer h5 {
+    font-size: 24px;
+    color: #F74D4D;
+    margin-bottom: 30px;
+}
+
+.homepageCardContainer {
+    width: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* DETAIL PRODUCT START */
+
+.detailProductPageContainer {
+    background-color: #0B0B0B;
+    color: white;
+    min-height: 88vh;
+    margin: auto;
+    padding: 10vh 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DETAIL PRODUCT END */
+
+
+/* PROFILE PAGE START */
+
+.profilePageContainer {
+    background-color: #0B0B0B;
+    color: white;
+    min-height: 88vh;
+    margin: auto;
+    padding: 10vh 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PROFILE PAGE END */
+
+/* CATEGORY PAGE START */
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+/* CATEGOTY PAGE END */
