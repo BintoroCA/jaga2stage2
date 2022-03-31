@@ -7,6 +7,9 @@ const styles = {
     background: '#56C05A',
     borderRadius: '5px',
     color: 'white',
+    marginRight: '15px',
+    border: 'none',
+    fontWeight: '800'
     }
 }
 

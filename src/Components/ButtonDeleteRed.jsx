@@ -7,12 +7,14 @@ const styles = {
     background: '#F74D4D',
     borderRadius: '5px',
     color: 'white',
+    border: 'none',
+    fontWeight: '800'
     }
 }
 
 function ButtonDeleteRed() {
   return (
-    <button style={styles.btnRed}>Edit</button>
+    <button style={styles.btnRed}>Delete</button>
   )
 }
 

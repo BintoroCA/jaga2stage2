@@ -1,11 +1,8 @@
 import merchIcon from '../Assets/Images/Frame.png';
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-// import Login from "./Login";
-// import Register from "./Register";
+import { Link } from "react-router-dom";
 
 export default function NavbarComp() {
   return (
-    // <Router>
       <div>
         <nav>
           <div className="navbarComp">
@@ -13,15 +10,23 @@ export default function NavbarComp() {
               <img src={merchIcon} alt="" />
             </div>
             <ul className="nav-right">
-              <li>Complain</li>
-              <li>Profil</li>
               <li>
-                <Link className="right-login" to="/login">
+              <Link className="right-nav-item" to="/admin-complain">
+                  Complain
+              </Link>
+              </li>
+              <li>
+              <Link className="right-nav-item" to="/profile">
+                Profil
+              </Link>
+              </li>
+              <li>
+                <Link className="right-nav-item" to="/login">
                   Login
                 </Link>
               </li>
               <li>
-                <Link className="right-login" to="/register">
+                <Link className="right-nav-item" to="/register">
                   Register
                 </Link>
               </li>
@@ -30,15 +35,5 @@ export default function NavbarComp() {
           </div>
         </nav>
       </div>
-    //   {/* <Routes>
-    //     <Route exact path="/login" element={<Login />} />
-    //     <Route exact path="/register" element={<Register />} /> */}
-        // {/* <Route element={<PrivateRoute />}>
-        //   <Route exact path="/about" element={<About />} />
-        //   <Route exact path="/profile" element={<Profile />} />
-        //   <Route exact path="/user/:id" element={<DetailUser />} />
-        // </Route> */}
-    //   {/* </Routes>
-    // </Router> */}
   );
 }
